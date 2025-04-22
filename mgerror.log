@@ -1,0 +1,321 @@
+﻿ <537495005921236416> 02/04/2025 16:42:50.597     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <537495005921236416> 02/04/2025 16:42:50.628     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <277286185997015648> 02/04/2025 16:57:51.106     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <277286185997015648> 02/04/2025 16:57:51.134     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <453150338149862912> 02/04/2025 17:12:59.773     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <453150338149862912> 02/04/2025 17:12:59.775     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <384247637453125184> 02/04/2025 17:24:47.283     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <384247637453125184> 02/04/2025 17:24:47.286     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <366883125470753664> 03/04/2025 09:13:34.754     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <366883125470753664> 03/04/2025 09:13:34.780     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <229633289261793152> 03/04/2025 09:27:28.668     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <229633289261793152> 03/04/2025 09:27:28.671     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <208858709597426720> 03/04/2025 12:47:51.297     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <208858709597426720> 03/04/2025 12:47:51.301     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <183705764790515648> 03/04/2025 14:01:35.026     [Error  ] - [MgGui.dll] in Field.initElements(): size must be greater than zero, Program: "My First Program".
+ <183705764790515648> 03/04/2025 14:01:35.051     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.data.FieldDef.setAttribute(String attribute, String valueStr)
+   at com.magicsoftware.unipaas.management.data.FieldDef.initElements(List`1 tokensVector)
+   at com.magicsoftware.unipaas.management.data.FieldDef.fillData()
+   at com.magicsoftware.rte.data.FieldsTable.initField(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.initInnerObjects(String foundTagName, DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.FieldsTable.fillData(DataViewBase dataview)
+   at com.magicsoftware.unipaas.management.data.DataViewBase.fillHeaderData()
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "My First Program".
+ <279018556289713600> 03/04/2025 15:21:17.783     [Error  ] - MOET HOGER DAN  5, Program: "My First Program".
+ <275773295083618112> 03/04/2025 15:22:14.499     [Error  ] - MOET HOGER DAN  5, Program: "My First Program".
+ <351921735752418112> 03/04/2025 15:37:28.002     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <512256843382719872> 03/04/2025 15:40:17.488     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <509097789359216384> 03/04/2025 15:40:29.555     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <454647067360475904> 03/04/2025 15:41:51.654     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <454647067360475904> 03/04/2025 15:41:54.761     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <454647067360475904> 03/04/2025 15:41:57.071     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <454647067360475904> 03/04/2025 15:41:58.365     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <454647067360475904> 03/04/2025 15:41:59.534     [Error  ] - MOET KLEINER DAN  5, Program: "My First Program".
+ <523898861136541312> 03/04/2025 15:43:42.821     [Error  ] - > 100, Program: "My First Program".
+ <455953445669713344> 03/04/2025 15:49:58.784     [Error  ] - > 100, Program: "My First Program".
+ <455953445669713344> 03/04/2025 15:50:04.286     [Error  ] - > 100, Program: "My First Program".
+ <264584399882966752> 03/04/2025 15:50:38.964     [Error  ] - > 100, Program: "My First Program".
+ <264584399882966752> 03/04/2025 15:53:28.716     [Error  ] - > 100, Program: "My First Program".
+ <468402474423381632> 03/04/2025 16:04:39.501     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:54:55.483     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:55:44.297     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:55:46.766     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:55:49.191     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:55:54.680     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <566475349835428224> 04/04/2025 10:55:56.960     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <180789309585387840> 04/04/2025 10:58:47.259     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <19313633517801796> 04/04/2025 11:10:44.470     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <19313633517801796> 04/04/2025 11:11:50.070     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <19313633517801796> 04/04/2025 11:11:52.182     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <19313633517801796> 04/04/2025 11:11:54.507     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <149255901296914304> 04/04/2025 12:47:09.233     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <117822836279192496> 07/04/2025 09:26:50.785     [Error  ] - > 100, Program: "My First Program".
+ <117822836279192496> 07/04/2025 09:26:54.335     [Error  ] - > 100, Program: "My First Program".
+ <117822836279192496> 07/04/2025 09:26:56.728     [Error  ] - > 100, Program: "My First Program".
+ <117822836279192496> 07/04/2025 09:26:59.684     [Error  ] - > 100, Program: "My First Program".
+ <117822836279192496> 07/04/2025 09:27:02.217     [Error  ] - > 100, Program: "My First Program".
+ <189101211982400512> 07/04/2025 09:56:32.005     [Error  ] - > 100, Program: "My First Program".
+ <189101211982400512> 07/04/2025 09:56:43.888     [Error  ] - > 100, Program: "My First Program".
+ <325826123265667904> 07/04/2025 09:59:29.428     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <325826123265667904> 07/04/2025 09:59:35.060     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <325826123265667904> 07/04/2025 09:59:37.665     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <-1> 07/04/2025 11:44:36.011     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 11:44:59.959     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <280224004541695808> 07/04/2025 14:29:23.608     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <280224004541695808> 07/04/2025 14:29:25.426     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <280224004541695808> 07/04/2025 14:29:30.383     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <280224004541695808> 07/04/2025 14:29:32.023     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <280224004541695808> 07/04/2025 14:29:35.775     [Error  ] - De datum mag niet later zijn dan vandaag, Program: "My First Program".
+ <-1> 07/04/2025 15:22:02.669     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 15:22:28.342     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 15:27:22.406     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 15:50:45.159     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 15:50:59.758     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:22:21.221     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:22:35.544     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:44:10.024     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:44:57.944     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:56:52.658     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 07/04/2025 16:57:07.158     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 08/04/2025 09:45:30.932     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 08/04/2025 09:45:51.610     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 08/04/2025 09:53:45.853     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 08/04/2025 09:58:23.595     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <316720468093549632> 08/04/2025 13:28:55.243     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <286221577859287296> 11/04/2025 15:19:50.607     [Error  ] - Customer Code moet ingevuld zijn!, Program: "My First Program".
+ <193400461491718816> 15/04/2025 15:11:24.542     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:25.284     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:26.466     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:31.188     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:39.312     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:40.047     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:40.356     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:43.953     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:46.171     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:48.704     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:51.108     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <193400461491718816> 15/04/2025 15:11:52.497     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Browse - Customers".
+ <499730027382839296> 15/04/2025 15:13:49.342     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:49.951     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:50.467     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:50.732     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:51.858     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:52.810     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:53.404     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:54.342     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:54.764     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:54.967     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:55.107     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:55.263     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <499730027382839296> 15/04/2025 15:13:55.467     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
+ <-1> 18/04/2025 13:53:04.229     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 18/04/2025 13:53:18.913     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application

@@ -1,0 +1,24 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14081.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="7"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="GettingStarted" Public="%WorkingDir%Data\GettingStarte" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="5" name="Customers" offset="228" length="10547"/> 
+<DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="Local" id="7" name="Suppliers" offset="10776" length="5181"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="31174158196421160"/>  </Application>

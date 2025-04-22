@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14081.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="13"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="Name">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="50"/>
+          <Size id="174" val="50"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="Phone_Number">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="###-#######"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="City">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Country">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="Bonus">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3.2"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="Years_Since_Start_Working">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="Table Dispaly Form">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="Edit Control">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="11"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="Text Caption">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Font id="50" val="11"/>
+          <Color id="51" val="5"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="Table">
+        <PropertyList model="CTRL_RICH_CLIENT_TABLE">
+          <RowHighlightColor id="410" val="5"/>
+          <RowPlacement id="572" val="Y"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>
