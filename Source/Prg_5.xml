@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739363" _time="38514" date="22/04/2025" time="10:41:54"/>
+          <LastModified _date="739363" _time="42003" date="22/04/2025" time="11:40:03"/>
         </Header>
         <ItemIsn val="37"/>
         <Resource>
@@ -555,6 +555,39 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="33554444" propagate="78">
+            <Level val="V"/>
+            <Type val="C"/>
+            <FieldID val="26"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <BLOCK EndBlock="33554507" EndBlockSegment="33554507" FlowIsn="33554506" Type="L">
+                  <Condition Exp="33554446"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="33554508" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="The address contains the invalid @ character." TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition Exp="33554447"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="33554507"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="68" _last_test_id="68" id="3">
@@ -917,8 +950,8 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="{0,30} > 5000"/>
-            <ExpAttribute val="B"/>
+            <ExpSyntax val="??? > 5000"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="'TRUE'LOG"/>
@@ -955,6 +988,14 @@
           <Expression id="13">
             <ExpSyntax val="''"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554446">
+            <ExpSyntax val="LoopCounter() &lt;= Len(Trim({0,26}))"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554447">
+            <ExpSyntax val="MID({0,26}, LoopCounter(), 1) = '@'"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
         <EVNT DESC="Set Data And Time" FORCE_EXIT="N" id="1">
