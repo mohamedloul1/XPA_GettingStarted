@@ -319,3 +319,17 @@
  <499730027382839296> 15/04/2025 15:13:55.467     [Error  ] - Duplicate index, data source: GettingStarted, Program: "Event Test".
  <-1> 18/04/2025 13:53:04.229     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
  <-1> 18/04/2025 13:53:18.913     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <365307416679639104> 24/04/2025 15:37:27.944     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:28.819     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:29.585     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:30.162     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:32.585     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:33.022     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:34.772     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:42.100     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:42.554     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:42.944     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:43.209     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:43.381     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:44.569     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
+ <365307416679639104> 24/04/2025 15:37:49.538     [Error  ] - Duplicate index, data source: Orders, Program: "Orders".
