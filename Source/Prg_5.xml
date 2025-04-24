@@ -19,9 +19,10 @@
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="1"/>
+            <TSK_PARAMS val="2"/>
             <ParametersAttributes>
               <Attr MgAttr="N"/>
+              <Attr MgAttr="A"/>
             </ParametersAttributes>
           </ReturnValue>
           <SqlWhereExist val="N"/>
@@ -31,9 +32,9 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739363" _time="42003" date="22/04/2025" time="11:40:03"/>
+          <LastModified _date="739365" _time="36409" date="24/04/2025" time="10:06:49"/>
         </Header>
-        <ItemIsn val="37"/>
+        <ItemIsn val="38"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="5"/>
@@ -54,6 +55,15 @@
                 <_Dec id="181"/>
                 <_Whole id="182" val="9"/>
                 <_Negative id="192"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554438" name="P.Program Mode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="U"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="4" name="CHG_REASON_Country">
@@ -92,7 +102,7 @@
           <ForceRecordDelete DEL="N"/>
           <EndTaskCondition val="N"/>
           <EvaluateEndCondition val="B"/>
-          <InitialMode val="M"/>
+          <InitialMode Exp="33554455"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
           <VarRange LastIsn="4"/>
@@ -166,6 +176,18 @@
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554470" FlowIsn="33554536" id="33554470">
+                  <Column val="33554438"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
@@ -588,6 +610,48 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="33554446" propagate="78">
+            <Level val="R"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <BLOCK EndBlock="33554528" EndBlockSegment="33554528" FlowIsn="33554527" Type="I">
+                  <Condition Exp="33554454"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="33554533" EndBlockSegment="33554533" FlowIsn="33554532" Type="I">
+                  <Condition Exp="33554449"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="33554533"/>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="33554530" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Text: Salary is high!" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="33554528"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="68" _last_test_id="68" id="3">
@@ -950,8 +1014,8 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="??? > 5000"/>
-            <ExpAttribute val="A"/>
+            <ExpSyntax val="{0,30} > 5000"/>
+            <ExpAttribute val="B"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="'TRUE'LOG"/>
@@ -996,6 +1060,34 @@
           <Expression id="33554447">
             <ExpSyntax val="MID({0,26}, LoopCounter(), 1) = '@'"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554449">
+            <ExpSyntax val="{0,30} > 8000"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554454">
+            <ExpSyntax val="Stat()"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554453">
+            <ExpSyntax val="'FALSE'LOG"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554451">
+            <ExpSyntax val="{0,30} * 2"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="33554452">
+            <ExpSyntax val="{0,30} * 3"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="33554455">
+            <ExpSyntax val="IF({0,33554470} = 'M', 'M'MODE ,IF({0,33554470} = 'C', 'C'MODE, 'E'MODE))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554456">
+            <ExpSyntax val="CASE({0,33554470},'C','C'MODE,'M','M'MODE,'E'MODE)"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="Set Data And Time" FORCE_EXIT="N" id="1">

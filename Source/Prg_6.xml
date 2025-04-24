@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739359" _time="46932" date="18/04/2025" time="13:02:12"/>
+          <LastModified _date="739365" _time="36762" date="24/04/2025" time="10:12:42"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -126,7 +126,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="13"/>
+                  <_DitIndexForToolkit val="15"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -139,7 +139,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="16"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -152,7 +152,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="15"/>
+                  <_DitIndexForToolkit val="17"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -165,7 +165,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="16"/>
+                  <_DitIndexForToolkit val="18"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -178,7 +178,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="17"/>
+                  <_DitIndexForToolkit val="19"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -191,7 +191,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="18"/>
+                  <_DitIndexForToolkit val="20"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -204,7 +204,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="19"/>
+                  <_DitIndexForToolkit val="21"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -217,7 +217,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="20"/>
+                  <_DitIndexForToolkit val="22"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -230,7 +230,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="21"/>
+                  <_DitIndexForToolkit val="23"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -243,7 +243,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="22"/>
+                  <_DitIndexForToolkit val="24"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -278,6 +278,10 @@
                       <Variable val="1"/>
                       <Skip val="N"/>
                     </Argument>
+                    <Argument>
+                      <Expression val="33554434"/>
+                      <Skip val="N"/>
+                    </Argument>
                   </Arguments>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
@@ -301,12 +305,117 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="33554438" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="31"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="33554451">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="5"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Expression val="33554433"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="33554452">
+                  <Event>
+                    <EventType val="I"/>
+                    <InternalEventID val="295"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="33554439" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="32"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="33554453">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="5"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="33554454">
+                  <Event>
+                    <EventType val="I"/>
+                    <InternalEventID val="295"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="52" _last_test_id="52" id="1">
+          <FormEntry _last_isn="54" _last_test_id="54" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <X id="21" val="14"/>
-              <Y id="22" val="28"/>
+              <X id="21" val="2"/>
+              <Y id="22" val="57"/>
               <Width id="23" val="718"/>
               <Height id="24" val="283"/>
               <Wallpaper id="42" val="%WorkingDir%\images\GS_bg.jpg"/>
@@ -314,6 +423,34 @@
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers - Line Mode"/>
             </PropertyList>
+            <Control PDOD="128" _test_id="53" id="33554485">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <X id="21" val="78"/>
+                <Y id="22" val="18"/>
+                <Width id="23" val="56"/>
+                <Height id="24" val="23"/>
+                <Format id="82" valUnicode="Add"/>
+                <RaiseEvent id="234">
+                  <EventType val="I"/>
+                  <InternalEventID val="31"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="54" id="33554486">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <X id="21" val="203"/>
+                <Y id="22" val="18"/>
+                <Width id="23" val="56"/>
+                <Height id="24" val="23"/>
+                <Format id="82" valUnicode="READ"/>
+                <RaiseEvent id="234">
+                  <EventType val="I"/>
+                  <InternalEventID val="32"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="52" id="52">
               <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
                 <X id="21" val="644"/>
@@ -325,7 +462,7 @@
                   <EventType val="I"/>
                   <InternalEventID val="30"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="1"/>
+                <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
             <Control _test_id="31" id="31">
@@ -435,7 +572,7 @@
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Customer Code"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="4"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -454,7 +591,7 @@
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="Customer Name"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="5"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -473,7 +610,7 @@
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="Country"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="4"/>
+                <TabOrder id="314" val="6"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -492,7 +629,7 @@
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="City"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="5"/>
+                <TabOrder id="314" val="7"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -511,7 +648,7 @@
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="Address"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="6"/>
+                <TabOrder id="314" val="8"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -530,7 +667,7 @@
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="Gold Membership"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="7"/>
+                <TabOrder id="314" val="9"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -549,7 +686,7 @@
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="Membership Data"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="8"/>
+                <TabOrder id="314" val="10"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -568,7 +705,7 @@
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="Membership Time"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="9"/>
+                <TabOrder id="314" val="11"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -587,7 +724,7 @@
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="Salary Amount"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="10"/>
+                <TabOrder id="314" val="12"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -606,13 +743,23 @@
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="Credit  Amount"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="11"/>
+                <TabOrder id="314" val="13"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="33554433">
+            <ExpSyntax val="'C'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554434">
+            <ExpSyntax val="'M'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
