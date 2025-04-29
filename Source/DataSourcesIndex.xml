@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="8"/>
+  <LastIsn val="9"/>
 
   <LastIsnFolder val="0"/>
 
@@ -19,7 +19,8 @@
   <DataObjects>
  
 <DataObject PhysicalName="GettingStarted" Public="%WorkingDir%Data\GettingStarte" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="5" name="Customers" offset="228" length="10547"/> 
-<DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="Local" id="7" name="Suppliers" offset="10776" length="5181"/> 
-<DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="33554440" name="Orders" offset="15958" length="5179"/>  </DataObjects>
+<DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="7" name="Suppliers" offset="10776" length="5197"/> 
+<DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="33554440" name="Orders" offset="15974" length="5179"/> 
+<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="33554441" name="Products" offset="21154" length="5240"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="31175913-123845078"/>  </Application>
+ <LastModified val="31176911-214118636"/>  </Application>

@@ -233,7 +233,30 @@
     </Program>
     <Program>
       <Header Description="Orders" ISN_2="1" LastIsn="1" id="33554446">
-        <Public val="RunMe"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739369" _time="53436" date="28/04/2025" time="14:50:36"/>
+      </Header>
+      <SourceFileTimeStamp _date="739369" _time="46236" date="28/04/2025" time="12:50:36"/>
+    </Program>
+    <Program>
+      <Header Description="List Of Orders" ISN_2="1" LastIsn="1" id="33554447">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -246,11 +269,119 @@
         <Interactive val="Y"/>
         <External val="Y"/>
         <Offline val="N"/>
-        <FormType val="D"/>
+        <FormType val="M"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="739365" _time="55832" date="24/04/2025" time="15:30:32"/>
+        <LastModified _date="739370" _time="33165" date="29/04/2025" time="09:12:45"/>
       </Header>
-      <SourceFileTimeStamp _date="739365" _time="48632" date="24/04/2025" time="13:30:32"/>
+      <SourceFileTimeStamp _date="739370" _time="25965" date="29/04/2025" time="07:12:45"/>
+    </Program>
+    <Program>
+      <Header Description="Product List" ISN_2="1" LastIsn="1" id="33554448">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739369" _time="59070" date="28/04/2025" time="16:24:30"/>
+      </Header>
+      <SourceFileTimeStamp _date="739369" _time="51870" date="28/04/2025" time="14:24:30"/>
+    </Program>
+    <Program>
+      <Header Description="Products" ISN_2="1" LastIsn="1" id="33554449">
+        <Public val="RunMe"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="Y"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739370" _time="40396" date="29/04/2025" time="11:13:16"/>
+      </Header>
+      <SourceFileTimeStamp _date="739370" _time="33196" date="29/04/2025" time="09:13:16"/>
+    </Program>
+    <Program>
+      <Header Description="Rich Client - Products" ISN_2="1" LastIsn="1" id="33554451">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739369" _time="38324" date="28/04/2025" time="10:38:44"/>
+      </Header>
+      <SourceFileTimeStamp _date="739369" _time="31124" date="28/04/2025" time="08:38:44"/>
+    </Program>
+    <Program>
+      <Header Description="Select Customers" ISN_2="1" LastIsn="1" id="33554456">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739369" _time="51726" date="28/04/2025" time="14:22:06"/>
+      </Header>
+      <SourceFileTimeStamp _date="739369" _time="44526" date="28/04/2025" time="12:22:06"/>
+    </Program>
+    <Program>
+      <Header Description="Select Product" ISN_2="1" LastIsn="1" id="33554457">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="739370" _time="47051" date="29/04/2025" time="13:04:11"/>
+      </Header>
+      <SourceFileTimeStamp _date="739370" _time="39851" date="29/04/2025" time="11:04:11"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
