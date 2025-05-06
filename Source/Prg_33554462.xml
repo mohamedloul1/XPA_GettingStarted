@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739377" _time="36767" date="06/05/2025" time="10:12:47"/>
+          <LastModified _date="739377" _time="38032" date="06/05/2025" time="10:33:52"/>
         </Header>
         <ItemIsn val="22"/>
         <Resource>
@@ -170,6 +170,9 @@
                   <INT_RCMP_INFO>
                     <v>33554435</v>
                   </INT_RCMP_INFO>
+                  <INT_OLESUBFORM_INFO>
+                    <v>33554458</v>
+                  </INT_OLESUBFORM_INFO>
                   <_DitIndexForToolkit val="1"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
@@ -198,9 +201,6 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <Range MAX="33554446" MIN="33554446"/>
-                  <INT_OLESUBFORM_INFO>
-                    <v>33554458</v>
-                  </INT_OLESUBFORM_INFO>
                   <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -425,7 +425,7 @@
               <Model comp="-1" id="1" obj="9"/>
               <X id="21" val="33"/>
               <Y id="22" val="32"/>
-              <Width id="23" val="433"/>
+              <Width id="23" val="441"/>
               <Height id="24" val="335"/>
               <Wallpaper id="42" val="C:\Projects\Getting Started\images\Light Blue background.jpg"/>
               <_Comment id="218"/>
@@ -635,7 +635,7 @@
                 <Arguments id="126">
                   <Arguments>
                     <Argument>
-                      <Variable val="33554433"/>
+                      <Variable val="33554443"/>
                       <Skip val="N"/>
                     </Argument>
                   </Arguments>
@@ -664,10 +664,6 @@
             <ExpSyntax val="CASE({0,33554445},'C','C'MODE,'M','M'MODE,'E'MODE)"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="33554437">
-            <ExpSyntax val="CndRange({0,33554443} > 0, {0,33554443})"/>
-            <ExpAttribute val="N"/>
-          </Expression>
           <Expression id="33554446">
             <ExpSyntax val="{0,33554443}"/>
             <ExpAttribute val="N"/>
@@ -675,10 +671,6 @@
           <Expression id="33554438">
             <ExpSyntax val="NOT (Stat(0,'E'MODE))"/>
             <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="33554444">
-            <ExpSyntax val="{0,33554433}"/>
-            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
         <EVNT DESC="Select Customers" FORCE_EXIT="E" id="33554433">
@@ -694,10 +686,7 @@
             <SQL val="N"/>
             <ReturnValue>
               <ReturnValueAttr/>
-              <TSK_PARAMS val="1"/>
-              <ParametersAttributes>
-                <Attr MgAttr="N"/>
-              </ParametersAttributes>
+              <ParametersAttributes/>
             </ReturnValue>
             <SqlWhereExist val="N"/>
             <TaskType val="C"/>
@@ -705,7 +694,7 @@
             <External val="N"/>
             <FormType val="D"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="739377" _time="36767" date="06/05/2025" time="10:12:47"/>
+            <LastModified _date="739377" _time="38019" date="06/05/2025" time="10:33:39"/>
           </Header>
           <ItemIsn val="17"/>
           <Resource>
@@ -725,16 +714,7 @@
               <Cache val="Y"/>
               <IdentifyRowModifications val="84"/>
             </DB>
-            <Columns>
-              <Column id="33554433" name="P.Order Number">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="33554446"/>
-                  <DbColumnName id="178"/>
-                  <Type id="179"/>
-                  <UserType id="180"/>
-                </PropertyList>
-              </Column>
-            </Columns>
+            <Columns/>
           </Resource>
           <Information>
             <Key>
@@ -815,17 +795,10 @@
                   </DATAVIEW_SRC>
                 </LogicLine>
                 <LogicLine>
-                  <Select FieldID="33554445" FlowIsn="33554458" id="33554445">
-                    <Column val="33554433"/>
-                    <Type val="V"/>
-                    <ExposedToRoute val="N"/>
-                    <IsParameter val="Y"/>
-                    <DIFF_UPDATE val="T"/>
-                    <PartOfDataview val="Y"/>
-                    <Condition val="Y"/>
-                    <Modifier val="S"/>
-                    <Direction val="C"/>
-                  </Select>
+                  <Remark FlowIsn="33554458">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
                 </LogicLine>
                 <LogicLine>
                   <Select FieldID="33554433" FlowIsn="33554443" id="33554433">
@@ -913,7 +886,7 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
-                  <LNK Direction="A" EVL_CND="R" FlowIsn="33554448" Key="33554436" Mode="R" SortType="33554449" VIEW="8" VIEWS="4">
+                  <LNK Direction="A" EVL_CND="R" FlowIsn="33554448" Key="33554436" Mode="R" SortType="33554449" VIEW="7" VIEWS="4">
                     <DB comp="-1" obj="33554441"/>
                     <Condition val="Y"/>
                   </LNK>
@@ -998,10 +971,6 @@
                     <Arguments>
                       <Argument>
                         <Expression val="33554436"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Expression val="33554438"/>
                         <Skip val="N"/>
                       </Argument>
                     </Arguments>
@@ -1289,7 +1258,7 @@
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="33554434">
-              <ExpSyntax val="{0,33554445}"/>
+              <ExpSyntax val="{1,33554443}"/>
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="33554435">
@@ -1303,10 +1272,6 @@
             <Expression id="33554437">
               <ExpSyntax val="'M'"/>
               <ExpAttribute val="A"/>
-            </Expression>
-            <Expression id="33554438">
-              <ExpSyntax val="{0,33554433} + 1"/>
-              <ExpAttribute val="N"/>
             </Expression>
           </Expressions>
           <EVNT DESC="Add order line" FORCE_EXIT="E" id="33554433">
@@ -1328,10 +1293,9 @@
               <SQL val="N"/>
               <ReturnValue>
                 <ReturnValueAttr/>
-                <TSK_PARAMS val="2"/>
+                <TSK_PARAMS val="1"/>
                 <ParametersAttributes>
                   <Attr MgAttr="A"/>
-                  <Attr MgAttr="N"/>
                 </ParametersAttributes>
               </ReturnValue>
               <SqlWhereExist val="N"/>
@@ -1340,9 +1304,9 @@
               <External val="N"/>
               <FormType val="D"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="739377" _time="35192" date="06/05/2025" time="09:46:32"/>
+              <LastModified _date="739377" _time="38032" date="06/05/2025" time="10:33:52"/>
             </Header>
-            <ItemIsn val="20"/>
+            <ItemIsn val="22"/>
             <Resource>
               <DB id="33554433">
                 <DataObject comp="-1" obj="33554442"/>
@@ -1368,14 +1332,6 @@
                     <StoredAs id="173" val="1"/>
                     <Size id="174" val="1"/>
                     <_Flip id="194"/>
-                  </PropertyList>
-                </Column>
-                <Column id="33554439" name="P.Order_Number">
-                  <PropertyList model="FIELD">
-                    <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="33554446"/>
-                    <DbColumnName id="178"/>
-                    <Type id="179"/>
-                    <UserType id="180"/>
                   </PropertyList>
                 </Column>
                 <Column id="33554436" name="Product_exists">
@@ -1423,7 +1379,7 @@
               <InitialMode Exp="33554436"/>
               <Locate Direction="A"/>
               <Range Direction="A"/>
-              <VarRange LastIsn="3"/>
+              <VarRange LastIsn="5"/>
               <TaskProperties>
                 <SelectionTable val="N"/>
                 <ConfirmUpdate CNFU="N"/>
@@ -1499,43 +1455,19 @@
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="33554450" FlowIsn="33554468" id="33554450">
-                      <Column val="33554439"/>
-                      <Type val="V"/>
-                      <ExposedToRoute val="N"/>
-                      <IsParameter val="Y"/>
-                      <INT_RCMP_INFO>
-                        <v>33554487</v>
-                        <v>33554489</v>
-                      </INT_RCMP_INFO>
-                      <DIFF_UPDATE val="T"/>
-                      <PartOfDataview val="Y"/>
-                      <Condition val="Y"/>
-                      <Modifier val="S"/>
-                      <Direction val="C"/>
-                    </Select>
+                    <Remark FlowIsn="33554512">
+                      <Type val="0"/>
+                      <Text val=" "/>
+                    </Remark>
                   </LogicLine>
                   <LogicLine>
-                    <LNK Direction="D" EVL_CND="R" FlowIsn="33554487" Key="33554433" Mode="R" SortType="33554488" VIEW="3" VIEWS="2">
+                    <LNK Direction="D" EVL_CND="R" FlowIsn="33554487" Key="33554433" Mode="R" SortType="33554488" VIEW="2" VIEWS="2">
                       <DB comp="-1" obj="33554442"/>
                       <Condition val="Y"/>
                     </LNK>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="33554452" FlowIsn="33554490" id="33554452">
-                      <Column val="33554434"/>
-                      <Type val="R"/>
-                      <ExposedToRoute val="N"/>
-                      <IsParameter val="N"/>
-                      <DIFF_UPDATE val="T"/>
-                      <Condition val="N"/>
-                      <Modifier val="S"/>
-                      <Direction val="C"/>
-                    </Select>
-                  </LogicLine>
-                  <LogicLine>
                     <Select FieldID="33554451" FlowIsn="33554489" id="33554451">
-                      <ASS val="33554438"/>
                       <Column val="33554433"/>
                       <Type val="R"/>
                       <ExposedToRoute val="N"/>
@@ -1548,16 +1480,39 @@
                     </Select>
                   </LogicLine>
                   <LogicLine>
+                    <Select FieldID="33554452" FlowIsn="33554490" id="33554452">
+                      <Column val="33554434"/>
+                      <Type val="R"/>
+                      <ExposedToRoute val="N"/>
+                      <IsParameter val="N"/>
+                      <REAL_VNAME_TXT val="Line Number laatste"/>
+                      <INT_RCMP_INFO>
+                        <v>33554438</v>
+                      </INT_RCMP_INFO>
+                      <DIFF_UPDATE val="T"/>
+                      <Condition val="N"/>
+                      <Modifier val="S"/>
+                      <Direction val="C"/>
+                    </Select>
+                  </LogicLine>
+                  <LogicLine>
                     <END_LINK FlowIsn="33554488"/>
                   </LogicLine>
                   <LogicLine>
+                    <Remark FlowIsn="33554511">
+                      <Type val="0"/>
+                      <Text val=" "/>
+                    </Remark>
+                  </LogicLine>
+                  <LogicLine>
                     <Select FieldID="33554435" FlowIsn="33554437" id="33554435">
-                      <ASS val="33554433"/>
+                      <ASS val="33554438"/>
                       <Column val="33554433"/>
                       <Type val="R"/>
                       <ExposedToRoute val="N"/>
                       <IsParameter val="N"/>
-                      <Range MAX="33554433" MIN="33554433"/>
+                      <REAL_VNAME_TXT val="Order Number"/>
+                      <Range MAX="33554438" MIN="33554438"/>
                       <DIFF_UPDATE val="T"/>
                       <Condition val="Y"/>
                       <Modifier val="S"/>
@@ -1566,11 +1521,12 @@
                   </LogicLine>
                   <LogicLine>
                     <Select FieldID="33554436" FlowIsn="33554438" id="33554436">
+                      <ASS val="33554440"/>
                       <Column val="33554434"/>
                       <Type val="R"/>
                       <ExposedToRoute val="N"/>
                       <IsParameter val="N"/>
-                      <Range MAX="33554434" MIN="33554434"/>
+                      <Range MAX="33554439" MIN="33554439"/>
                       <_DitIndexForToolkit val="2"/>
                       <DIFF_UPDATE val="T"/>
                       <Condition val="Y"/>
@@ -1621,6 +1577,9 @@
                       <Type val="R"/>
                       <ExposedToRoute val="N"/>
                       <IsParameter val="N"/>
+                      <INT_RCMP_INFO>
+                        <v>33554444</v>
+                      </INT_RCMP_INFO>
                       <_DitIndexForToolkit val="4"/>
                       <DIFF_UPDATE val="T"/>
                       <Condition val="Y"/>
@@ -1641,10 +1600,23 @@
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <LNK Direction="A" EVL_CND="R" FlowIsn="33554444" Key="33554436" Mode="R" SortType="33554445" VIEW="12" VIEWS="4">
+                    <LNK Direction="A" EVL_CND="R" FlowIsn="33554444" Key="33554436" Mode="R" SortType="33554445" VIEW="11" VIEWS="4">
                       <DB comp="-1" obj="33554441"/>
                       <Condition val="Y"/>
                     </LNK>
+                  </LogicLine>
+                  <LogicLine>
+                    <Select FieldID="33554441" FlowIsn="33554446" id="33554441">
+                      <Column val="33554433"/>
+                      <Type val="R"/>
+                      <ExposedToRoute val="N"/>
+                      <IsParameter val="N"/>
+                      <Locate MAX="33554441" MIN="33554441"/>
+                      <DIFF_UPDATE val="T"/>
+                      <Condition val="N"/>
+                      <Modifier val="S"/>
+                      <Direction val="C"/>
+                    </Select>
                   </LogicLine>
                   <LogicLine>
                     <Select FieldID="33554442" FlowIsn="33554447" id="33554442">
@@ -1678,19 +1650,6 @@
                       <Type val="R"/>
                       <ExposedToRoute val="N"/>
                       <IsParameter val="N"/>
-                      <DIFF_UPDATE val="T"/>
-                      <Condition val="N"/>
-                      <Modifier val="S"/>
-                      <Direction val="C"/>
-                    </Select>
-                  </LogicLine>
-                  <LogicLine>
-                    <Select FieldID="33554441" FlowIsn="33554446" id="33554441">
-                      <Column val="33554433"/>
-                      <Type val="R"/>
-                      <ExposedToRoute val="N"/>
-                      <IsParameter val="N"/>
-                      <Locate MIN="33554435"/>
                       <DIFF_UPDATE val="T"/>
                       <Condition val="N"/>
                       <Modifier val="S"/>
@@ -1817,7 +1776,7 @@
               </LogicUnit>
             </TaskLogic>
             <TaskForms>
-              <FormEntry _last_isn="18" _last_test_id="18" id="1">
+              <FormEntry _last_isn="20" _last_test_id="20" id="1">
                 <PropertyList model="FORM_RICH_CLIENT">
                   <Model comp="-1" id="1" obj="9"/>
                   <Height id="24" val="199"/>
@@ -1966,6 +1925,33 @@
                     <TabOrder id="314" val="5"/>
                   </PropertyList>
                 </Control>
+                <Control _test_id="20" id="33554452">
+                  <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                    <Text id="19" valUnicode="P.Order_Number"/>
+                    <X id="21" val="38"/>
+                    <Y id="22" val="158"/>
+                    <Width id="23" val="65"/>
+                    <Height id="24" val="9"/>
+                    <Font id="50" val="1"/>
+                    <Style id="63" val="7"/>
+                    <_Orientation id="143"/>
+                  </PropertyList>
+                </Control>
+                <Control PDOD="1" _test_id="19" id="33554451">
+                  <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                    <Model ID="MODEL_RICH_CLIENT" id="1">
+                      <Var FieldID="33554443" Parent="1"/>
+                    </Model>
+                    <X id="21" val="107"/>
+                    <Y id="22" val="158"/>
+                    <Width id="23" val="48"/>
+                    <Height id="24" val="12"/>
+                    <Data FieldID="33554443" Parent="1" id="43"/>
+                    <ControlName id="46" val="P.Order_Number"/>
+                    <MultiLineEdit id="71"/>
+                    <TabOrder id="314" val="7"/>
+                  </PropertyList>
+                </Control>
                 <Control PDOD="128" _test_id="5" id="33554437">
                   <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
                     <Model comp="-1" id="1" obj="33554447"/>
@@ -1985,16 +1971,8 @@
               </FormEntry>
             </TaskForms>
             <Expressions>
-              <Expression id="33554433">
-                <ExpSyntax val="{33554434,33554433}"/>
-                <ExpAttribute val="N"/>
-              </Expression>
-              <Expression id="33554434">
-                <ExpSyntax val="CndRange({0,33554433} = 'M', {33554434,33554434})"/>
-                <ExpAttribute val="N"/>
-              </Expression>
-              <Expression id="33554435">
-                <ExpSyntax val="{33554434,33554439}"/>
+              <Expression id="33554439">
+                <ExpSyntax val="{33554434,33554434}"/>
                 <ExpAttribute val="N"/>
               </Expression>
               <Expression id="33554436">
@@ -2006,7 +1984,15 @@
                 <ExpAttribute val="N"/>
               </Expression>
               <Expression id="33554438">
-                <ExpSyntax val="{0,33554450}"/>
+                <ExpSyntax val="{1,33554443}"/>
+                <ExpAttribute val="N"/>
+              </Expression>
+              <Expression id="33554440">
+                <ExpSyntax val="{0,33554452}+1"/>
+                <ExpAttribute val="N"/>
+              </Expression>
+              <Expression id="33554441">
+                <ExpSyntax val="{0,33554446}"/>
                 <ExpAttribute val="N"/>
               </Expression>
             </Expressions>
@@ -2017,7 +2003,6 @@
             </EVNT>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="33554435" id="1"/>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="33554436" id="2"/>
-            <VarRangeInfo Mode="F" id="3"/>
           </Task>
         </Task>
       </Task>
