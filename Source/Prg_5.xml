@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739365" _time="36409" date="24/04/2025" time="10:06:49"/>
+          <LastModified _date="739373" _time="50568" date="02/05/2025" time="14:02:48"/>
         </Header>
         <ItemIsn val="38"/>
         <Resource>
@@ -174,6 +174,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
@@ -200,7 +201,7 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <Range MAX="7" MIN="6"/>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -213,7 +214,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -226,7 +227,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -239,7 +240,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="10"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -252,7 +253,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="10"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -265,7 +266,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="12"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -278,7 +279,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="16"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -291,7 +292,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="16"/>
+                  <_DitIndexForToolkit val="18"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -304,7 +305,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="18"/>
+                  <_DitIndexForToolkit val="20"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -317,7 +318,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="20"/>
+                  <_DitIndexForToolkit val="22"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -654,7 +655,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="68" _last_test_id="68" id="3">
+          <FormEntry _last_isn="70" _last_test_id="70" id="3">
             <PropertyList model="FORM_RICH_CLIENT">
               <X id="21" val="60"/>
               <Y id="22" val="57"/>
@@ -664,6 +665,31 @@
               <_Comment id="218"/>
               <FormName id="311"/>
             </PropertyList>
+            <Control _test_id="70" id="33554502">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="P.Customer code"/>
+                <X id="21" val="112"/>
+                <Y id="22" val="13"/>
+                <Width id="23" val="66"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="1" _test_id="69" id="33554501">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT" id="1">
+                  <Var FieldID="32"/>
+                </Model>
+                <X id="21" val="182"/>
+                <Y id="22" val="13"/>
+                <Width id="23" val="48"/>
+                <Height id="24" val="12"/>
+                <Data FieldID="32" id="43"/>
+                <ControlName id="46" val="P.Customer code"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="67" id="67">
               <PropertyList model="CTRL_RICH_CLIENT_LINE">
                 <X1 id="21"/>
@@ -684,7 +710,7 @@
                 <Data FieldID="22" id="43"/>
                 <ControlName id="46" val="Customer Code"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
             <Control _test_id="42" id="42">
@@ -709,7 +735,7 @@
                 <Height id="24" val="12"/>
                 <Data FieldID="23" id="43"/>
                 <ControlName id="46" val="Customer Name"/>
-                <TabOrder id="314" val="4"/>
+                <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
             <Control _test_id="43" id="43">
@@ -734,7 +760,7 @@
                 <Height id="24" val="12"/>
                 <Data FieldID="24" id="43"/>
                 <ControlName id="46" val="Country"/>
-                <TabOrder id="314" val="5"/>
+                <TabOrder id="314" val="6"/>
               </PropertyList>
             </Control>
             <Control _test_id="44" id="44">
@@ -759,7 +785,7 @@
                 <Height id="24" val="12"/>
                 <Data FieldID="25" id="43"/>
                 <ControlName id="46" val="City"/>
-                <TabOrder id="314" val="6"/>
+                <TabOrder id="314" val="7"/>
               </PropertyList>
             </Control>
             <Control _test_id="45" id="45">
@@ -784,7 +810,7 @@
                 <Height id="24" val="12"/>
                 <Data FieldID="26" id="43"/>
                 <ControlName id="46" val="Address"/>
-                <TabOrder id="314" val="7"/>
+                <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
             <Control _test_id="46" id="46">
@@ -810,7 +836,7 @@
                 <Data FieldID="27" id="43"/>
                 <ControlName id="46" val="Gold Membership"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="8"/>
+                <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
             <Control _test_id="47" id="47">
@@ -836,7 +862,7 @@
                 <Data FieldID="28" id="43"/>
                 <ControlName id="46" val="Membership Data"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="9"/>
+                <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
             <Control _test_id="48" id="48">
@@ -862,7 +888,7 @@
                 <Data FieldID="29" id="43"/>
                 <ControlName id="46" val="Membership Time"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="10"/>
+                <TabOrder id="314" val="11"/>
               </PropertyList>
             </Control>
             <Control _test_id="49" id="49">
@@ -888,7 +914,7 @@
                 <Data FieldID="30" id="43"/>
                 <ControlName id="46" val="Salary Amount"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="11"/>
+                <TabOrder id="314" val="12"/>
               </PropertyList>
             </Control>
             <Control _test_id="50" id="50">
@@ -914,7 +940,7 @@
                 <Data FieldID="31" id="43"/>
                 <ControlName id="46" val="Credit  Amount"/>
                 <MultiLineEdit id="71"/>
-                <TabOrder id="314" val="12"/>
+                <TabOrder id="314" val="13"/>
               </PropertyList>
             </Control>
             <Control _test_id="51" id="51">
@@ -941,7 +967,7 @@
                   <EventType val="I"/>
                   <InternalEventID val="31"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="1"/>
+                <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="66" id="66">
@@ -957,7 +983,7 @@
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="3"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="63" id="63">
@@ -974,7 +1000,7 @@
                   <EventType val="I"/>
                   <InternalEventID val="64"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="13"/>
+                <TabOrder id="314" val="14"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="62" id="62">
@@ -991,7 +1017,7 @@
                   <EventType val="I"/>
                   <InternalEventID val="65"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="14"/>
+                <TabOrder id="314" val="15"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="64" id="64">
@@ -1007,7 +1033,7 @@
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="1"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="15"/>
+                <TabOrder id="314" val="16"/>
               </PropertyList>
             </Control>
           </FormEntry>

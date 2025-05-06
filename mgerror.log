@@ -547,3 +547,34 @@
  <-1> 29/04/2025 12:06:56.854     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
  <-1> 29/04/2025 12:11:15.855     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
  <-1> 29/04/2025 12:11:30.362     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <533344357212756352> 01/05/2025 12:53:39.136     [Error  ] - Create error: Order_Lines, Program: "Orders.Order Lines".
+ <533344357212756352> 01/05/2025 12:53:39.141     [Error  ] - EndTaskRequest(): Create error: Order_Lines : Order Lines index Order_Number already exists : "Orders" ("Getting Started")  (msgid "3"), Program: "Main Program".
+ <176849971714051136> 01/05/2025 16:13:16.028     [Error  ] - Cannot modify Read Only, data source: Products, Program: "Orders.Order Lines.Add / Edit Line".
+ <176849971714051136> 01/05/2025 16:13:16.071     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: Products : Add / Edit Line  : "Orders.Order Lines.Add / Edit Line.Select Product" ("Getting Started")  (msgid "997"), Program: "Main Program".
+ <164326666663398112> 01/05/2025 16:14:02.291     [Error  ] - Cannot modify Read Only, data source: Products, Program: "List Of Orders.Orders.Order Lines.Add / Edit Line".
+ <164326666663398112> 01/05/2025 16:14:02.294     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: Products : Add / Edit Line  : "List Of Orders.Orders.Order Lines.Add / Edit Line" ("Getting Started")  (msgid "1006"), Program: "Main Program".
+ <304177769966485696> 01/05/2025 16:18:24.265     [Error  ] - Cannot modify Read Only, data source: Products, Program: "Orders.Order Lines.Add / Edit Line".
+ <304177769966485696> 01/05/2025 16:18:24.309     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: Products : Add / Edit Line  : "Orders.Order Lines.Add / Edit Line.Select Product" ("Getting Started")  (msgid "1063"), Program: "Main Program".
+ <305860507526000832> 02/05/2025 10:29:49.972     [Error  ] - Cannot modify Read Only, data source: Products, Program: "Orders.Order Lines.Add / Edit Line".
+ <305860507526000832> 02/05/2025 10:29:50.026     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: Products : Add / Edit Line  : "Orders.Order Lines.Add / Edit Line.Select Product" ("Getting Started")  (msgid "650"), Program: "Main Program".
+ <384867347953537536> 02/05/2025 10:32:51.895     [Error  ] - Cannot modify Read Only, data source: Products, Program: "Orders.Order Lines.Add / Edit Line".
+ <384867347953537536> 02/05/2025 10:32:51.939     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: Products : Add / Edit Line  : "Orders.Order Lines.Add / Edit Line.Select Product" ("Getting Started")  (msgid "691"), Program: "Main Program".
+ <391764547906792128> 02/05/2025 13:44:48.123     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <391764547906792128> 02/05/2025 13:45:09.890     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <391764547906792128> 02/05/2025 13:45:12.891     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <391764547906792128> 02/05/2025 13:45:14.218     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:40.768     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:43.925     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:54.394     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:56.456     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:58.081     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <118554727557166576> 02/05/2025 13:49:58.300     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:55:48.096     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:22.786     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:42.583     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:46.552     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:47.536     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:49.786     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:51.224     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:51.537     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <293001129054651392> 02/05/2025 13:56:52.146     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".

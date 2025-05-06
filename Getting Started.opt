@@ -5,12 +5,143 @@
 
   <EditProjectMode Val="N"/>
 
-  <DebugMode Val="N"/>
+  <DebugMode Val="Y"/>
 
   <RIAExecutionPlatform Val="Desktop"/>
 
   <WatchListItems>
     <RestData/>
   </WatchListItems>
+
+  <VisitedTasks>
+    <VisitedTask>
+      <PrgIsn Val="1"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554447"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554435"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554434"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554461"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554456"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="1"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554447"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554435"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554434"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554461"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554456"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="1"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554447"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554435"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554434"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554461"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554456"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="1"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554447"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554435"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="33554434"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554446"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554461"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554456"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554462"/>
+      <TaskIsn Val="33554435"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554462"/>
+      <TaskIsn Val="33554434"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554462"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33554463"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+  </VisitedTasks>
 
 </Application>

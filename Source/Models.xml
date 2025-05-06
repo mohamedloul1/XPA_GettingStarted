@@ -98,6 +98,10 @@
       <Object id="33554446" name="Order Number">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
