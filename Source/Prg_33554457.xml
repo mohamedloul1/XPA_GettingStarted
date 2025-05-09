@@ -19,7 +19,10 @@
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <ParametersAttributes/>
+            <TSK_PARAMS val="1"/>
+            <ParametersAttributes>
+              <Attr MgAttr="N"/>
+            </ParametersAttributes>
           </ReturnValue>
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
@@ -28,9 +31,9 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739370" _time="47051" date="29/04/2025" time="13:04:11"/>
+          <LastModified _date="739377" _time="43711" date="06/05/2025" time="12:08:31"/>
         </Header>
-        <ItemIsn val="4"/>
+        <ItemIsn val="5"/>
         <Resource>
           <DB id="33554433">
             <DataObject comp="-1" obj="33554441"/>
@@ -40,7 +43,16 @@
             <Cache val="Y"/>
             <IdentifyRowModifications val="84"/>
           </DB>
-          <Columns/>
+          <Columns>
+            <Column id="33554433" name="P. Product Code">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
@@ -119,6 +131,19 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554437" FlowIsn="33554445" id="33554437">
+                  <Column val="33554433"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
               </LogicLine>
               <LogicLine>
                 <Select FieldID="33554433" FlowIsn="33554435" id="33554433">
@@ -203,6 +228,31 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="33554438" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="33554450">
+                  <FieldID val="33554437"/>
+                  <WithValue val="33554435"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="6" _last_test_id="6" id="1">
@@ -216,7 +266,6 @@
             </PropertyList>
             <Control PDOD="128" _test_id="6" id="33554438">
               <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <Model id="1"/>
                 <X id="21" val="263"/>
                 <Y id="22" val="49"/>
                 <Width id="23" val="46"/>
@@ -296,6 +345,10 @@
           <Expression id="33554434">
             <ExpSyntax val="Translate('%WorkingDir%')&amp;'Products\' &amp; Trim({0,33554434}) &amp; '.jpg'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554435">
+            <ExpSyntax val="{0,33554433}"/>
+            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
       </Task>

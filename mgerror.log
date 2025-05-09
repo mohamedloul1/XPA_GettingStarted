@@ -578,3 +578,5 @@
  <293001129054651392> 02/05/2025 13:56:51.224     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
  <293001129054651392> 02/05/2025 13:56:51.537     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
  <293001129054651392> 02/05/2025 13:56:52.146     [Error  ] - Duplicate index, data source: Orders, Program: "List Of Orders".
+ <-1> 08/05/2025 10:12:22.635     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 08/05/2025 10:12:38.746     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
