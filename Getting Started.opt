@@ -13,23 +13,4 @@
     <RestData/>
   </WatchListItems>
 
-  <VisitedTasks>
-    <VisitedTask>
-      <PrgIsn Val="1"/>
-      <TaskIsn Val="1"/>
-    </VisitedTask>
-    <VisitedTask>
-      <PrgIsn Val="33554469"/>
-      <TaskIsn Val="1"/>
-    </VisitedTask>
-    <VisitedTask>
-      <PrgIsn Val="33554468"/>
-      <TaskIsn Val="1"/>
-    </VisitedTask>
-    <VisitedTask>
-      <PrgIsn Val="33554467"/>
-      <TaskIsn Val="1"/>
-    </VisitedTask>
-  </VisitedTasks>
-
 </Application>
