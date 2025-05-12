@@ -29,9 +29,9 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739380" _time="52366" date="09/05/2025" time="14:32:46"/>
+          <LastModified _date="739382" _time="78858" date="11/05/2025" time="21:54:18"/>
         </Header>
-        <ItemIsn val="13"/>
+        <ItemIsn val="15"/>
         <Resource>
           <DB id="33554434">
             <DataObject comp="-1" obj="5"/>
@@ -49,7 +49,17 @@
             <Cache val="Y"/>
             <IdentifyRowModifications val="84"/>
           </DB>
-          <Columns/>
+          <Columns>
+            <Column id="33554433" name="PDF Name">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="225"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="225"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
@@ -130,6 +140,18 @@
                 </DATAVIEW_SRC>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="33554447" FlowIsn="33554491" id="33554447">
+                  <Column val="33554433"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Select FieldID="33554433" FlowIsn="33554435" id="33554433">
                   <Column val="33554433"/>
                   <Type val="R"/>
@@ -183,7 +205,7 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="D" EVL_CND="R" FlowIsn="33554467" Key="33554433" Mode="R" SortType="33554468" VIEW="4" VIEWS="1">
+                <LNK Direction="D" EVL_CND="R" FlowIsn="33554467" Key="33554433" Mode="R" SortType="33554468" VIEW="5" VIEWS="1">
                   <DB comp="-1" obj="33554440"/>
                   <Condition val="Y"/>
                 </LNK>
@@ -211,7 +233,7 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="33554438" Key="1" Mode="R" SortType="33554439" VIEW="5" VIEWS="2">
+                <LNK Direction="A" EVL_CND="R" FlowIsn="33554438" Key="1" Mode="R" SortType="33554439" VIEW="6" VIEWS="2">
                   <DB comp="-1" obj="5"/>
                   <Condition val="Y"/>
                 </LNK>
@@ -416,7 +438,7 @@
             <Condition val="89"/>
             <Event>
               <EventType val="U"/>
-              <PublicObject comp="-1" obj="33554433"/>
+              <PublicObject comp="-1" obj="33554434"/>
             </Event>
             <ExecuteOn_ val="O"/>
             <LogicLines>
@@ -426,7 +448,7 @@
                   <Event>
                     <EventType val="N"/>
                   </Event>
-                  <TaskID comp="-1" obj="33554470"/>
+                  <TaskID comp="-1" obj="33554469"/>
                   <Lock val="N"/>
                   <Arguments>
                     <Argument>
@@ -443,16 +465,37 @@
                 </CallTask>
               </LogicLine>
               <LogicLine>
-                <RaiseEvent FlowIsn="33554489">
-                  <Event>
-                    <EventType val="I"/>
-                    <InternalEventID val="295"/>
-                  </Event>
-                  <Wait val="78"/>
+                <Update FlowIsn="33554513">
+                  <FieldID val="33554447"/>
+                  <WithValue val="33554439"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
-                </RaiseEvent>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="33554514">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="33554468"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="33554447"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -473,10 +516,10 @@
                 <Y id="22" val="15"/>
                 <Width id="23" val="59"/>
                 <Height id="24" val="17"/>
-                <Format id="82" valUnicode="Read Record"/>
+                <Format id="82" valUnicode="Print"/>
                 <RaiseEvent id="234">
                   <EventType val="U"/>
-                  <PublicObject comp="-1" obj="33554433"/>
+                  <PublicObject comp="-1" obj="33554434"/>
                 </RaiseEvent>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
@@ -629,8 +672,17 @@
             <ExpSyntax val="{0,33554439}"/>
             <ExpAttribute val="N"/>
           </Expression>
+          <Expression id="33554439">
+            <ExpSyntax val="ServerFileToClient('%TempDir%Invoice.pdf')"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="Read Record" FORCE_EXIT="N" id="33554433">
+          <Event>
+            <EventType val="S"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="Print" FORCE_EXIT="N" id="33554434">
           <Event>
             <EventType val="S"/>
           </Event>
